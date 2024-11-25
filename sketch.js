@@ -28,9 +28,6 @@ function setup() {
 function draw() {
   background("#D9ED92");
 
-  let inizio = ((windowWidth)/2) - indexWidth/2;
-  let distanza = 160
-
   index("Asia",30,40,"#76C893","#D9ED92");
   index("Africa",210,40,"#184E77","#D9ED92");
   index("Europa",390,40,"#52B69A", "#D9ED92");
