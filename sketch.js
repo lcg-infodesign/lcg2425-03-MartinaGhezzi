@@ -16,7 +16,7 @@ let rectSize = 20;
 function setup() {
   yStart = 130;
   frameRate(3);
-  createCanvas(windowWidth*2.5, windowHeight*7.6); //canva grande quanto lo schermo
+  createCanvas(windowWidth*2.5, windowHeight*11.6); //canva grande quanto lo schermo
   
   dataObj = data.getRows(); //mi crea un array dal file csv, organizzato in righe e colonne
   dataObj.sort((a, b) => b.getNum("length") - a.getNum("length"));
